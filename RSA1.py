@@ -39,7 +39,7 @@ phi = N - 1
 print("phi: ", phi)
 e_inverse = modinv(e+1, phi)
 print("e inverse: ", e_inverse)
-d = #e_inverse % phi
+d =#e_inverse % phi
 print("d is:", d)
 
 decimal_cyphertext=''
